@@ -1,0 +1,97 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+
+
+.limited-section {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* Begin Top CSS */
+
+.top {
+    background-color: #00cad1;
+
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-content .top-links {
+    display: flex;
+    gap: 25px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.top-content .top-links a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.top-content .top-links a:hover {
+    color: #043a3b;
+
+}
+
+/* End Top CSS */
+
+main {
+    color: #8a8585;
+    margin-bottom: 60px;
+
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+/* Begin Footer CSS */
+
+footer {
+    background-color: #106c74;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* End Footer CSS */
